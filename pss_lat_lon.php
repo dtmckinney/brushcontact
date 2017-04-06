@@ -59,7 +59,6 @@ function create_folder ($dir, $lat, $lon) {
 $create_date = date("m-d-Y");
 $create_date_rev = date("Y-m-d"); 
 $create_date_time = date("Y-m-d H:i:s");
-$ip = $_SERVER['REMOTE_ADDR'];
 
 $lat = strtolower($_REQUEST['lat']);
 $lon = strtolower($_REQUEST['lon']);

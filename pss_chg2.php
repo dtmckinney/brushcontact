@@ -13,7 +13,6 @@ function truncate_number( $number, $precision = 2) {
 $create_date = date("m-d-Y");
 $create_date_rev = date("Y-m-d"); 
 $create_date_time = date("Y-m-d H:i:s");
-$ip = $_SERVER['REMOTE_ADDR'];
 
 $rm = $_REQUEST['rm'];
 $lnk = $_REQUEST['lnk'];

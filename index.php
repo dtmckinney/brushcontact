@@ -192,9 +192,6 @@
                         <div class="bc_defined">
                             <p><strong>Brush Contact:</strong> <em>a brief encounter between friendly spies to share a few words or documents.</em></p>
                         </div>
-                        <?php /*?>
-                            <div><a href="http://derekt.me" target="_blank">DerekT.Me</a></div>
-                            <?php */?>
                     </div>
                 </div>
             </div>

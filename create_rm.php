@@ -47,7 +47,6 @@ $site_root = "/";
 $create_date = date("m-d-Y");
 $create_date_rev = date("Y-m-d"); 
 $create_date_time = date("Y-m-d H:i:s");
-$ip = $_SERVER['REMOTE_ADDR'];
 
 $rmkey = $_POST['rm-key'];
 

@@ -16,7 +16,6 @@ function recursiveRemoveDirectory($directory)
 $create_date = date("m-d-Y");
 $create_date_rev = date("Y-m-d"); 
 $create_date_time = date("Y-m-d H:i:s");
-$ip = $_SERVER['REMOTE_ADDR'];
 
 $rm = $_REQUEST['rm'];
 $type = $_REQUEST['type'];
