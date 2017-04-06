@@ -1,6 +1,6 @@
 # Brush Contact
 
-For quick exchanges of words and files between strangers
+A site for quick exchanges of words and files between strangers, anonymously.
 
 **Brush Contact**: a brief encounter between friendly spies to share a few words or documents.
 
