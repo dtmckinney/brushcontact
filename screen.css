@@ -1,0 +1,112 @@
+body {
+	background-color: #ccc;
+}
+.row-top {
+	display:block;
+	overflow:hidden;
+	min-height:110px;
+}
+.txtblock,
+.lnkblock {
+	display:block;
+}
+.btn-primary {
+	width: 100%;
+}
+#header {
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+#header-url {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+#burnit-header {
+	color:#666;
+	font-size: 10px;
+	font-style:italic;
+	font-weight: bold;
+	text-align: center;
+}
+#timer-output {
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+#timer-output {
+	margin: 0 auto;
+    margin-bottom: -100px;
+    transform: scale(0.3);
+    width: 300px;
+    position: relative;
+    left: 0px;
+    top: -47px;
+    height: 138px;
+    overflow: hidden;
+	/*margin:-25px auto;
+	margin-bottom: -100px;
+	transform:scale(0.3);
+	width:300px;*/
+}
+@media (max-width:340px) {
+	#timer-output {
+		left: -57px;
+	}
+}
+#out {
+	font-size: 10px;
+	font-weight: bold;
+	text-align: center;
+}
+.shareheader {
+	float:left;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	text-align: left;
+}
+.trash-all {
+	float:left;
+}
+.fa-trash {
+	cursor:pointer;
+	font-size: 30px;
+}
+.fa-key {
+	cursor: pointer;
+	font-size: 26px;
+}
+.key {
+ position: absolute;
+ right: 0;
+	top:5px;
+	text-align: right;
+}
+.footerlink {
+	font-size:10px;
+	margin:20px 0;
+	text-align:center;
+}
+
+#textblock_output,
+#linkblock_output {
+    height: 150px;
+    overflow: auto;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #eee;
+}
+#textblock {
+	margin-bottom: 10px;
+}
+.pathblock_wrapper {
+    margin: 10px 5px;
+    overflow-x: scroll;
+    width: 90%;
+}
+.trash-all {
+	float: right;
+}
